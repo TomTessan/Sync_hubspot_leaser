@@ -4,7 +4,7 @@ Ce document contient la documentation pour trois scripts Google Apps Script con�
 
 ---
 
-## Script 1 : Synchro des Transactions (Deals)
+## Script 1 : Deals_sync.js
 
 Ce script automatise la mise à jour des transactions (Deals) HubSpot à partir des données d'une feuille de calcul Google Sheets.
 
@@ -50,7 +50,7 @@ const HUBSPOT_API_KEY = 'pat-na1-xxxx-xxxx-xxxx-xxxxxxxxxxxx'; // <--- REMPLACEZ
 
 ---
 
-## Script 2 : Récupération des IDs de Devices
+## Script 2 : Device_sync.js
 
 Ce script récupère les IDs des objets personnalisés "Device" associés à une entreprise et les inscrit dans la feuille. Il est optimisé pour traiter un grand volume de données et les ordonner par date de création du device depuis hubspot.
 
@@ -87,7 +87,7 @@ const HUBSPOT_PRIVATE_APP_ACCESS_TOKEN = 'pat-na1-xxxx-xxxx-xxxx-xxxxxxxxxxxx'; 
 
 ---
 
-## Script 3 : Mise à Jour des Dates des Devices
+## Script 3 : Date_sync.js
 
 Ce script met à jour deux propriétés de date sur un objet "Device" dans HubSpot en utilisant les données de la feuille.
 
